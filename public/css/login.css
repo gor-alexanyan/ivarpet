@@ -1,0 +1,296 @@
+@font-face{
+    font-family:freesans;
+    src:url("../fonts/freesans/freesans.ttf");
+}
+@font-face{
+    font-family:freesansbold;
+    src:url("../fonts/freesans/freesansbold.ttf")
+}
+@font-face{
+    font-family: JosefinSans-SemiBold;
+    src:url("../fonts/Josefin_Sans/JosefinSans-SemiBold.ttf")
+}
+@font-face{
+    font-family: JosefinSans-Light;
+    src:url("../fonts/Josefin_Sans/JosefinSans-Light.ttf")
+}
+section{
+    position: relative;
+    top: -10px;
+    padding-top: 33px;
+}
+section h3{
+    text-align: center;
+    font-family: freesansbold;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+.orangeG{
+    width:80px;
+    padding-right: 10px;
+    height: 5px;
+    background-color: #ed9920;
+    margin: auto;
+}
+.logIn{
+    padding-top: 74px;
+    padding-left: 190px;
+}
+.logIn input{
+    padding: 6px 12px 7px 15px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+.name, .surname{
+    float: left;
+}
+.surname{
+    padding-left: 14px;
+}
+input[name="surname"]{
+    width: 238px;
+}
+.logIn>input{
+    width: 450px;
+    margin-bottom: 16px;
+}
+.surname, .name{
+    margin-bottom: 16px;
+}
+input[name="login"]{
+    margin-bottom: 24px;
+}
+input[name="mail"]{
+    margin-bottom: 22px;
+}
+input[name="pass"]{
+    margin-bottom: 19px;
+}
+.logIn>label, .name label, .surname label{
+    display: block;
+    font-family: freesans;
+    font-size: 14px;
+}
+sup{
+    color:#ed9920;
+    font-size: 106%!important;
+}
+textarea{
+    border-radius: 5px;
+}
+input[name="Person"], input[name="agreement"]{
+    width:18px;
+    height: 18px;
+}
+.signAs{
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.signAs p{
+    font-family: freesansbold;
+    font-size: 14px;
+}
+.signAs label, .agree label, .agree a{
+    position: relative;
+    left:10px;
+    top:-4px;
+    font-family: freesans;
+    font-size: 14px;
+}
+.agree{
+    padding-top: 34px;
+}
+.agree a{
+    color:#32bdf1;
+    text-decoration: underline;
+}
+.agree a:hover{
+    color:#32bdf1;
+}
+.signIN {
+    padding-top: 23px;
+}
+input[name="signIN"]{
+    background-color: #ed9920;
+    color: #fff;
+    font-family: freesans;
+    font-size: 16px;
+    padding: 9px 19px ;
+    outline: none;
+}
+.profilePic {
+    padding-top: 98px;
+    left:30px;
+}
+.img{
+    border:2px dashed #ccc;
+    margin-left: 20px;
+    width:144px;
+    height: 144px;
+}
+.img>div{
+    position: relative;
+    text-align: center;
+    top:58px;
+}
+.img i{
+    font-size: 32px;
+    color: #7e7e7e;
+}
+.profilePic p{
+    color: #b4b4b4;
+    font-family:freesans;
+    font-size: 14px;
+    position: relative;
+    left:-37px;
+    top:27px;
+}
+.profilePic input{
+    position: absolute;
+    top: 301px;
+    left: 33px;
+    background-color: #fff;
+    color:#ed9920;
+    font-family: freesans;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+.profilePic input[type="button"]{
+    padding: 6px 31px;
+    z-index: 1;
+    outline: none;
+}
+.profilePic input:hover{
+    color:#fff;
+    background-color: #ed9920;
+}
+#legal{
+    margin-left: 25px;
+}
+.profilePic input[type="file"]{
+    opacity: 0;
+    padding: 6px 5px;
+    width:150px;
+    z-index: 2;
+}
+.profilePic input[type="file"]:hover{
+    z-index: 0;
+}
+@media all and (max-width: 1199px) {
+    .logIn{
+        padding-left: 131px;
+    }
+    .logIn>input{
+        width:370px;
+    }
+    .surname{
+        clear: both;
+        padding-left: 0;
+    }
+    #logLab{
+        clear: both;
+    }
+
+}
+@media all and (max-width: 998px) {
+    .logIn{
+        padding-left: 10px;
+    }
+   .profilePic{
+        width: 20%;
+        top:0;
+        left: -48px;
+    }
+    .profilePic p {
+        left:37px;
+    }
+    .profilePic input {
+        top:339px;
+    }
+}
+@media all and (max-width: 992px) {
+    .profilePic{
+        position: absolute!important;
+        left: 638px;
+        top:80px;
+    }
+
+    }
+@media all and (max-width: 856px) {
+    .profilePic{
+        left:550px;
+    }
+}
+@media all and (max-width: 778px) {
+    .logIn>input{
+        width:300px;
+    }
+    .profilePic{
+        left: 402px;
+
+    }
+
+}
+@media all and (max-width: 606px){
+    .logIn>input{
+        width:250px;
+    }
+    .profilePic{
+        left: 310px;
+    }
+    .profilePic input {
+        top:348px;
+    }
+}
+@media all and (max-width: 606px){
+    .logIn>input, textarea{
+        width:200px;
+    }
+    .surname input{
+        width:200px;
+    }
+    .profilePic{
+        left: 250px;
+    }
+}
+@media all and (max-width: 454px){
+    .img{
+        width:123px;
+        height: 132px;
+    }
+    .profilePic p {
+        left: 42px;
+    }
+    .profilePic input[type="button"] {
+        padding: 6px 13px;
+    }
+    .profilePic{
+        left: 228px;
+    }
+}
+@media all and (max-width: 428px){
+    .profilePic{
+        position: absolute !important;
+        left: 29px;
+        top:50px;
+    }
+    .logIn {
+        padding-left: 44px;
+        padding-top: 386px;
+    }
+    .profilePic input {
+        top:355px;
+    }
+
+}
+
+@media all and (max-width: 410px){
+    #legal{
+        position: relative;
+        top:25px;
+        left:-157px;
+    }
+    #legalPerson{
+        left:21px;
+    }
+}

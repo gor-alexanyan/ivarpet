@@ -1,0 +1,151 @@
+@font-face{
+    font-family:freesans;
+    src:url("../fonts/freesans/freesans.ttf");
+}
+@font-face{
+    font-family:freesansbold;
+    src:url("../fonts/freesans/freesansbold.ttf")
+}
+@font-face{
+    font-family: JosefinSans-SemiBold;
+    src:url("../fonts/Josefin_Sans/JosefinSans-SemiBold.ttf")
+}
+@font-face{
+    font-family: JosefinSans-Light;
+    src:url("../fonts/Josefin_Sans/JosefinSans-Light.ttf")
+}
+.item1{
+    background-image: url("../images/action-america.png");
+    background-position: center center;
+}
+.item2{
+    background-image: url("../images/construction-worker.png");
+}
+.item1>div{
+    background-color: rgba(19, 28, 34, .4);
+    width: 100%;
+    height: 100%;
+}
+.responsiveSlide{
+    width:1200px;
+    margin: auto;
+}
+
+.news{
+    position: relative;
+}
+
+.news h3{
+    text-align: center;
+    font-family: freesansbold;
+    font-size: 25px;
+    margin-top: 48px;
+}
+
+.newsImg{
+    height:259px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.newsImg>img{
+    width:270px;
+    height: 259px;
+}
+.newsImage{
+
+    margin-top: 40px;
+}
+.commentField{
+    background-color: rgba(0, 0, 0, .7);
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    color: #fff;
+}
+.commentField a{
+    display: inline !important;
+}
+.commentField i{
+    padding-right: 10px;
+    color: #fff;
+}
+.view{
+    float: left;
+
+}
+.comm{
+    float: right;
+}
+
+.newsDivs p{
+    margin-top: 20px;
+    overflow: hidden;
+    height:70px;
+    font-family: freesans;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: justify;
+    line-height: 24px;
+}
+.newsDivs a{
+    display: block;
+    text-align: center;
+    font-family: freesansbold;
+    font-size: 15px;
+    margin-top: 26px;
+    cursor: pointer;
+    text-decoration: underline;
+    color:#000;
+}
+.newsDivs a:hover{
+    color:#000;
+}
+
+.etc{
+    border:none !important;
+}
+.pageInation span:hover{
+    border:2px solid #ed9920;
+}
+.etc:hover{
+    border:none !important;
+}
+@media all and (max-width: 1230px){
+    .responsiveSlide {
+        width: 1120px;
+    }
+    .newsImg>img {
+        width: 250px;
+    }
+}
+@media all and (max-width: 1150px){
+    .responsiveSlide {
+        width: 1000px;
+    }
+    .newsImg>img {
+        width: 220px;
+        height: 220px;
+    }
+    .newsImg {
+        height: 220px;
+    }
+}
+@media all and (max-width: 1040px){
+    .responsiveSlide {
+        width: 1000px;
+    }
+    .newsImg>img {
+        width: 220px;
+        height: 220px;
+    }
+    .newsImg {
+        height: 220px;
+    }
+    .nextLine{
+        clear: both;
+        float: left;
+    }
+}

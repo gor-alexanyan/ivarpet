@@ -1,0 +1,140 @@
+@font-face{
+    font-family:freesans;
+    src:url("../fonts/freesans/freesans.ttf");
+}
+@font-face{
+    font-family:freesansbold;
+    src:url("../fonts/freesans/freesansbold.ttf")
+}
+@font-face{
+    font-family: JosefinSans-SemiBold;
+    src:url("../fonts/Josefin_Sans/JosefinSans-SemiBold.ttf")
+}
+@font-face{
+    font-family: JosefinSans-Light;
+    src:url("../fonts/Josefin_Sans/JosefinSans-Light.ttf")
+}
+.sliders{
+    background-size: cover;
+}
+.item1{
+    background-image: url("../images/27.jpg");
+}
+.item2{
+    background-image: url("../images/construction-worker.png");
+}
+.structPic, .resttPic,  .transPic, .otherPic {
+    width: 274px;
+    height: 289px;
+    float: left;
+}
+.structPic{
+    background-image: url("../images/portfolio04.png");
+    margin-left: 84px;
+}
+.resttPic{
+    background-image: url("../images/portfolio08.png");
+}
+.transPic{
+    background-image: url("../images/alex-read-249257-unsplash.png");
+    margin-left: 84px;
+}
+.otherPic{
+    background-image: url("../images/solomon.png");
+}
+section h4{
+    text-align: left;
+    text-transform: uppercase;
+    font-family:freesansbold;
+    font-size: 16px;
+    color:#000;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+.subscription{
+    padding: 0px 10px;
+    max-width: 585px;
+}
+.subscription p{
+    font-family:freesans;
+    font-size: 14px;
+    color:#000;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+.subscription a{
+    font-family:freesansbold;
+    font-size: 14px;
+    color:#000;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.subscription a:hover{
+    color:#000;
+    text-decoration: none;
+}
+.l, .r{
+    float: left;
+}
+.l{
+    margin: 0px 57px 0px 84px;
+}
+.r{
+    margin-left: 57px;
+}
+.l h4{
+    text-align: right;
+}
+.ll{
+	float: right;
+}
+.structural{
+    padding-top: 40px;
+}
+.restoration, .transport, .other{
+    margin-top: 69px;
+}
+@media all and (max-width:1198px){
+	.structPic, .transPic{
+		margin-left:0;
+	}
+	.l, .r {
+     margin: 0px; 
+	}
+}
+@media all and (max-width:993px){
+	.structPic, .resttPic, .transPic, .otherPic {
+    width: 200px;
+    height: 200px;
+	background-size:cover;
+}
+.subscription{
+	max-width:490px;
+}
+}
+@media all and (max-width:771px){
+	.subscription{
+	max-width:390px;
+}
+.subscription p{
+	font-size:12px;
+}
+}
+@media all and (max-width:667px){
+	.subscription{
+	max-width:290px;
+}
+}
+@media all and (max-width:568px){
+	.structPic, .resttPic, .transPic, .otherPic{
+		width: 100px;
+    height: 100px;
+		
+	}
+}
+@media all and (max-width:469px){
+	.subscription{
+	max-width:190px;
+}
+}

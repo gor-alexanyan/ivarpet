@@ -1,0 +1,153 @@
+@font-face{
+    font-family:freesans;
+    src:url("../fonts/freesans/freesans.ttf");
+}
+@font-face{
+    font-family:freesansbold;
+    src:url("../fonts/freesans/freesansbold.ttf")
+}
+@font-face{
+    font-family: JosefinSans-SemiBold;
+    src:url("../fonts/Josefin_Sans/JosefinSans-SemiBold.ttf")
+}
+@font-face{
+    font-family: JosefinSans-Light;
+    src:url("../fonts/Josefin_Sans/JosefinSans-Light.ttf")
+}
+.sliders{
+    position: relative;
+    height: 490px;
+    outline: none;
+    background-size: cover;
+}
+.sliders img{
+    width: 100%;
+    height: 500px;
+}
+.slider .owl-dot span{
+    padding: 10px;
+}
+.slider .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #ed9920 !important;
+}
+.slider button[class="owl-dot active"], button[class="owl-dot"]{
+    border:none;
+    outline: none;
+    position: relative;
+    top:-100px;
+}
+.text {
+    color:#fff;
+    position: absolute;
+    bottom: 160px;
+    left:0;
+    right:0;
+}
+.text h1{
+    font-family: JosefinSans-SemiBold;
+    font-size: 72px;
+    margin-bottom: 2px;
+    position:absolute;
+    left:43%;
+    top:-200px;
+    transition: all .5s ease;
+}
+.text p{
+    font-family: JosefinSans-Light;
+    font-size: 36px;
+    font-weight: bold;
+    position:absolute;
+    width:32%;
+    right: 33%;
+    top:-100px;
+    transition: all .5s ease;
+}
+.text button{
+    background: #ed9920;
+    color:#fff;
+    font-family: freesansbold;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border:none;
+    outline:none;
+    padding: 13px 26px;
+
+    position:absolute;
+    left:44%;
+    top:0px;
+}
+.text button:hover{
+    background: #fff;
+    color:#ed9920;
+}
+.go_to_right{
+    left:-100vw !important;
+}
+.owl-item{
+    overflow: hidden;
+}
+.go_to_left{
+    right:-100vw !important;
+}
+@keyframes to_left {
+    0%{
+        right:-200px;
+    }
+    50%{
+        right:45%;
+    }
+
+    100%{
+        right:50%;
+
+    }
+}
+@media all and (max-width:777px) {
+    .text p, .s2 .text p {
+        font-size: 24px;
+    }
+
+    .text button, .s2 .text button {
+        font-size: 14px;
+    }
+
+    .text h1, .s2 .text h1 {
+        font-size: 60px;
+    }
+}
+@media all and (max-width: 570px) {
+    .text h1, .s2 .text h1 {
+        font-size: 36px;
+    }
+
+    .text p, .s2 .text p {
+        font-size: 18px;
+    }
+
+    .text button, .s2 .text button {
+        padding: 7px 14px;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .textSlider {
+        top: -200px;
+    }
+    .slick-dots {
+        bottom: 7px !important;
+    }
+}
+@media all and (max-width: 400px) {
+    .text h1 {
+        font-size: 24px;
+    }
+
+    .text p {
+        font-size: 12px;
+    }
+
+    .text button {
+        padding: 4px 10px;
+    }
+}

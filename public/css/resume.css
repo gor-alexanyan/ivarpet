@@ -1,0 +1,256 @@
+@font-face{
+    font-family:freesans;
+    src:url("../fonts/freesans/freesans.ttf");
+}
+aside, section{
+    float:left;
+}
+.left_side{
+    padding-top: 30px;
+}
+.left_side div{
+    width:258px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border:1px solid #7e7e7e;
+}
+.left_side div ul {
+    list-style: none;
+    padding: 0;
+}
+.left_side div ul  li{
+    margin-bottom: 16px;
+}
+.left_side div ul li a{
+    text-decoration: none;
+    font-family:freesans;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color:black;
+}
+section{
+    padding: 24px 5px 24px 10px;
+    width:47%;
+}
+form{
+    position: relative;
+}
+label{
+    font-size: 12px;
+    font-family: freesans;
+    font-weight: 600;
+    text-transform: capitalize;
+    color:black;
+}
+label[for="name"]{
+    width:35%;
+}
+input, textarea, select{
+    padding: 2px 0px 2px 4px;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: freesans;
+    color:#7e7e7e!important;
+    outline: none;
+    margin-bottom: 10px !important;
+    width:87%;
+	resize: none;
+}
+select{
+	width:88px;
+}
+textarea{
+	height: 27px;
+}
+.add_area{
+	border:none;
+	float:right;
+	margin-right: 18px;
+	background-color: white;
+	outline:none;
+}
+input[name="name"]{
+    width:33%!important;
+    margin-right: 5px;
+}
+input[name="surname"]{
+    width:39% !important;
+}
+input[name="profession"]{
+    width:74% !important;
+}
+.resume_pic{
+    position: absolute;
+    top:7px;
+    right:0px;
+    width:107px;
+    height:108px;
+    border:1px dashed #7e7e7e;
+    border-radius: 2px;
+}
+.resume_pic input[type="file"]{
+    width:107px !important;
+    height:108px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 2;
+    opacity: 0;
+}
+.resume_pic i{
+    background-image: url("../images/copy.png");
+    position: absolute;
+    bottom: 38px;
+    left:39px;
+    color:#7e7e7e;
+    font-size: 30px;
+}
+.resume_pic p{
+    position: absolute;
+    bottom: 3px;
+    text-align: center;
+    color:#ed9920;
+    font-size: 11px;
+    width:100%;
+    text-decoration: underline;
+    font-family: freesans;
+}
+label[for="bday"]{
+    width:46%;
+}
+input[name="b_month"]{
+    width:21% !important;
+}
+input[name="b_day"]{
+    width:9% !important;
+}
+input[name="b_year"]{
+    width:13% !important;
+}
+input[name="address"]{
+    width:54% !important;
+}
+.gender_type{
+    font-family: freesans;
+    font-size: 10px;
+    color:black;
+    margin-right: 5px;
+    font-weight: 600;
+}
+input[type="radio"]{
+    vertical-align: text-top;
+}
+input[type="radio"]{
+    width:3% !important;
+}
+input[type="button"]{
+    width:15% !important;
+    background-color: #9ea5aa;
+    padding: 5px 5px !important;
+    color:black !important;
+    text-transform:uppercase ;
+    font-size: 12px!important;
+}
+input[type="submit"]{
+    width:20% !important;
+    background-color: #ed9920;
+    color:white!important;
+    padding: 5px 5px !important;
+    margin-right: 10px!important;
+    text-transform:uppercase ;
+    font-size: 12px!important;
+}
+.show_big_img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.resume_style{
+    background-color: white;
+    width:660px;
+    overflow: auto;
+    margin: auto;
+    padding: 70px 50px;
+}
+.cv_name, .cv_pic{
+    float:left;
+}
+.cv_name{
+    width:68%;
+    text-align: right;
+    padding-right: 20px;
+}
+.cv_name>span{
+    color:black;
+    font-family: freesans;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.cv_name>p{
+    color:#585858;
+    font-family: freesans;
+    font-size: 12px;
+    font-style: oblique;
+    margin-top: 10px;
+}
+.cv_profession{
+    margin-top: 43px !important;
+}
+.cv_pic{
+    width:32%;
+    height:182px;
+    background-color: #f6cc8f;
+    background-image: url("../images/copy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom:33px;
+}
+.cv_pic img{
+    width:100%;
+    height:182px;
+}
+.l{
+    float:left;
+    width:54%;
+
+}
+.r{
+    float:right;
+    width:45%;
+}
+.r h2, .l h2{
+    text-transform: uppercase;
+    color:black;
+    font-family: freesans;
+    font-size:18px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.r h2{
+    float:right;
+}
+.r .lines{
+    clear:both;
+}
+.r p, .l p{
+    color:black;
+    font-family: freesans;
+    font-size:11px;
+    font-style: italic;
+    margin-top: 15px;
+}
+.r .lines, .l .lines{
+    height:2px;
+    background-color: #f8d6a6;
+}
+.ender{
+    margin-bottom: 50px;
+}
+.ivarpet{
+    float:right;
+    color:#ed9920;
+    font-family: freesans;
+    font-size:12px;
+}

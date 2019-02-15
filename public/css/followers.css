@@ -1,0 +1,94 @@
+@font-face{
+    font-family:freesans;
+    src:url("../fonts/freesans/freesans.ttf");
+}
+@font-face{
+    font-family:freesansbold;
+    src:url("../fonts/freesans/freesansbold.ttf")
+}
+@font-face{
+    font-family: JosefinSans-SemiBold;
+    src:url("../fonts/Josefin_Sans/JosefinSans-SemiBold.ttf")
+}
+@font-face{
+    font-family: JosefinSans-Light;
+    src:url("../fonts/Josefin_Sans/JosefinSans-Light.ttf")
+}
+body{
+    font-family:freesans;
+}
+section{
+    float:left;
+    padding-top: 20px;
+    width:70%;
+}
+aside{
+    float:right;
+    width:22%;
+}
+section>div{
+    margin-top:10px;
+    position: relative;
+}
+section>div>div>img{
+    width:130px;
+    height:130px;
+    display: block;
+    margin:0 auto;
+    position: relative;
+
+}
+section>div>div{
+    margin-bottom: 20px;
+}
+.action_follower{
+    display:none;
+}
+section div p{
+    text-align:center;
+    margin-top: 5px;
+}
+section div a{
+    text-decoration: none;
+    font-family: freesans;
+    font-size:14px;
+    color:black;
+    text-transform: capitalize;
+}
+.action_follower span, .action_follower button{
+    font-family: freesans;
+    font-size:12px;
+    color:#8d8d8d;
+    background-color: white;
+    border:none;
+    outline:none;
+    cursor: pointer;
+
+}
+.fol{
+    display:block;
+    width:150px;
+    position:absolute;
+    z-index: 3;
+    margin:auto;
+    bottom:-30px;
+    background-color: white;
+    padding: 10px 10px;
+    border:1px solid #d1d1d1;
+    -webkit-box-shadow: -1px -2px 21px 0px rgba(209,209,209,1);
+    -moz-box-shadow: -1px -2px 21px 0px rgba(209,209,209,1);
+    box-shadow: -1px -2px 21px 0px rgba(209,209,209,1);
+}
+.action_follower button{
+    display: block;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.action_follower button i{
+    margin-right: 5px;
+}
+.line_break{
+    height: 1px;
+    background-color: #d1d1d1;
+    margin-bottom: 6px;
+}

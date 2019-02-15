@@ -1,0 +1,297 @@
+@font-face{
+    font-family:freesans;
+    src:url("../fonts/freesans/freesans.ttf");
+}
+@font-face{
+    font-family:freesansbold;
+    src:url("../fonts/freesans/freesansbold.ttf")
+}
+@font-face{
+    font-family: JosefinSans-SemiBold;
+    src:url("../fonts/Josefin_Sans/JosefinSans-SemiBold.ttf")
+}
+@font-face{
+    font-family: JosefinSans-Light;
+    src:url("../fonts/Josefin_Sans/JosefinSans-Light.ttf")
+}
+.item1{
+    background-image: url("../images/action-america.png");
+    background-position: center center;
+}
+.item2{
+    background-image: url("../images/construction-worker.png");
+}
+.item1>div{
+    background-color: rgba(19, 28, 34, .4);
+    width: 100%;
+    height: 100%;
+}
+.newsField, .commentsField{
+    width:910px;
+    margin: auto;
+}
+.newsField h3{
+    font-family:freesansbold;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    text-transform:uppercase;
+    color:black;
+}
+.newsorangeLine{
+    width:108px;
+    height: 5px;
+    margin: auto;
+    background-color: #ed9920;
+}
+.newsField h2{
+    font-family:freesans;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 28px;
+    text-transform:capitalize;
+    color:black;
+}
+.newsDate{
+    font-family:freesans;
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 3px;
+    color:#bebebe;
+}
+.newsField img{
+    width:470px;
+    height:320px;
+    vertical-align: top;
+    float:left;
+    margin-right:22px;
+}
+.content{
+    font-family:freesans;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: justify;
+}
+.contentRight{
+    font-family:freesans;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: justify;
+}
+.commentsField{
+    padding-top: 102px;
+    padding-bottom: 30px;
+}
+.commentsField>span{
+    font-family:freesans;
+    font-size: 14px;
+    text-transform: capitalize;
+    color:black;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #ed9920;
+}
+.justLine{
+    height: 3px;
+    background-color: #d7d7d7;
+    margin-bottom: 21px;
+    margin-top: 10px;
+}
+.postField{
+	 width:564px;
+}
+.postField>textarea{
+	height:81px;
+}
+.postField>img{
+    width:34px;
+    height:40px;
+}
+.post{
+    width:564px;
+    border: 1px solid #bebebe;
+    position:relative;
+}
+.oldPosts, .oldPost{
+    width:564px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    border: 1px solid #bebebe;
+    margin-top: 3px;
+}
+.post>img{
+    width:34px;
+    height:40px;
+    float:left;
+    margin-top: 5px;
+    margin-left: 11px;
+}
+.post>textarea{
+    padding: 10px 5px 5px 10px;
+    width:455px;
+    height:81px;
+    float: left;
+    resize: none;
+    overflow: auto;
+    border:none;
+    outline: none;
+}
+.post>button{
+    float: right;
+    border:none;
+    outline:none;
+    background-color: white;
+    padding: 8px;
+    color:#bebebe;
+}
+.oldPosts>img, .oldPost>img{
+    width:45px;
+    height:45px;
+    float:left;
+    margin-top: 5px;
+    margin-left: 11px;
+}
+.userName{
+    font-family:freesans;
+    font-size: 14px;
+    text-transform: capitalize;
+    color:#00aeef;
+    font-weight: 600;
+    float:left;
+    padding-left: 10px;
+}
+.oldPosts>p, .oldPost>p{
+    font-family:freesans;
+    font-size: 12px;
+    color:black;
+    font-weight: 500;
+    clear: both;
+    display: inline-block;
+    width:455px;
+    text-align: left;
+    margin-left: 10px;
+}
+.oldPosts>button, .oldPost>button{
+    border:none;
+    outline:none;
+    background-color: white;
+    padding: 8px;
+    color:#bebebe;
+    text-transform: capitalize;
+    font-family:freesans;
+    font-size: 12px;
+}
+.likesCount{
+    font-family:freesans;
+    font-size: 12px;
+    color:#bebebe;
+}
+.likeIt{
+    margin-left: 60px;
+}
+.replyPost{
+    width:532px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    border-top: 1px solid #bebebe;
+    border-bottom: 1px solid #bebebe;
+    margin-top: 3px;
+    margin-left: 30px;
+}
+.replyPost>img{
+    width:24px;
+    height:24px;
+    float:left;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.replyPost>textarea{
+    padding: 5px 5px 5px 10px;
+    width:400px;
+    height:26px;
+    float: left;
+    resize: none;
+    overflow: auto;
+    border:none;
+    outline: none;
+    font-size: 11px;
+}
+.replyPost>button{
+    border:none;
+    outline:none;
+    background-color: white;
+    padding: 8px;
+    color:#bebebe;
+    text-transform: capitalize;
+    font-family:freesans;
+    font-size: 12px;
+}
+.oldPost{
+    border:none;
+}
+.showOlders{
+    width:560px;
+    border:none;
+    outline: none;
+    background-color: #f3efef;
+    color:#a29f9f;
+    font-family:freesans;
+    font-size: 10px;
+}
+.postsSpace{
+    height:425px;
+    width:565px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+@media all and (max-width: 1024px){
+    .newsField, .commentsField {
+        width: 800px;
+    }
+    .newsField img {
+        width: 400px;
+        height: 300px;
+    }
+}
+@media all and (max-width: 991px){
+    .newsField, .commentsField {
+        width: 700px;
+    }
+    .newsField img {
+        width: 300px;
+        height: 200px;
+    }
+}
+@media all and (max-width: 784px){
+    .newsField, .commentsField {
+        width: 540px;
+    }
+    .newsField img {
+        width: 300px;
+        height: 200px;
+    }
+}
+@media all and (max-width: 625px){
+    .newsField, .commentsField, .postField, .oldPosts {
+        width: 470px;
+    }
+    .newsField img {
+        width: 300px;
+        height: 200px;
+    }
+    .oldPosts>p, .oldPost>p{
+        width:400px;
+        display:block;
+    }
+    .postField>textarea{
+        width: 300px;
+    }
+    .showOlders {
+        width: 445px;
+    }
+    .postsSpace{
+        width: 470px;
+    }
+
+}

@@ -1,0 +1,645 @@
+@font-face{
+    font-family:freesans;
+    src:url("../fonts/freesans/freesans.ttf");
+}
+@font-face{
+    font-family:freesansbold;
+    src:url("../fonts/freesans/freesansbold.ttf")
+}
+@font-face{
+    font-family: JosefinSans-SemiBold;
+    src:url("../fonts/Josefin_Sans/JosefinSans-SemiBold.ttf")
+}
+@font-face{
+    font-family: JosefinSans-Light;
+    src:url("../fonts/Josefin_Sans/JosefinSans-Light.ttf")
+}
+body{
+    font-family:freesans;
+}
+.profileImg{
+    padding-top: 30px;
+    padding-left: 2px;
+    width:26%;
+}
+aside{
+    float:left;
+}
+.myPicture{
+    width: 243px;
+    height: 243px;
+    background-image: url(../images/ideal_system_by_l0053r.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.short{
+    padding:20px 10px 23px;
+    background-color: #faf9f9;
+    margin-top: 4px;
+}
+
+.short span{
+    font-family:freesans;
+    font-size: 10px;
+    color: #787777;
+    float:left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.short button{
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 10px;
+    font-family:freesans;
+	font-weight: 600;
+}
+.edit_info{float:right;}
+
+.short button i{
+    font-size: 10px;
+    color: #787777;
+}
+input[name="short_write"]{
+    width:223px;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.shortNote{
+    width:223px;
+    color:#000;
+    text-align: justify;
+    font-family:freesans;
+    font-size: 12px;
+    font-weight: 700;
+    clear:both;
+    padding-top: 12px;
+}
+.advertisement{
+    height:243px;
+    border:1px dashed #7f7f7f;
+    margin-top: 19px;
+    background-image: url("../images/copy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section{
+    float:left;
+    padding: 51px  7px  20px 28px;
+    width:48%;
+}
+.name{
+    text-transform: uppercase;
+    color:#000;
+    font-family:freesansbold;
+    font-size: 16px;
+    padding-right: 32px;
+}
+.currentPlace{
+    color:#666;
+    display:inline-block;
+    margin-bottom:5px;
+}
+.currentPlace span{
+    font-family:freesans;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.currentPlace button{
+    border: none;
+    outline: none;
+    background-color: white;
+    padding-left: 4px;
+}
+.country{
+    text-transform: uppercase;
+}
+.currentCity{
+    text-transform: capitalize;
+}
+.profession{
+    text-transform: capitalize;
+    color:#333;
+    font-family:freesans;
+    font-size: 14px;
+    font-weight: 500;
+}
+.rating{
+    margin-top: 39px;
+    text-transform: uppercase;
+    font-family:freesans;
+    font-size: 10px;
+    color:#999;
+    font-weight: 700;
+}
+.rate i{
+    color:#ed9920;
+    font-size: 12px;
+    cursor: pointer;
+}
+.upgrade{
+    margin-top: 63px;
+    position: relative;
+}
+.upgrade>span{
+    text-transform: capitalize;
+    color:#000;
+    font-family:freesans;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.notes{
+    border-bottom: 4px solid rgb(235, 151, 26);
+}
+.littleBit{
+    text-transform: lowercase !important;
+}
+.pics{
+    margin-left: 39px;
+    margin-right: 47px;
+}
+.upgLine{
+    height: 2px;
+    background-color: #ccc;
+    margin-top: 10px;
+}
+.stickers{
+    display:none;
+}
+.open_stick{
+    display:block;
+    position:absolute;
+    width:168px;
+    height:168px;
+    border:1px solid;
+    right:0px;
+    z-index: 4;
+    background-color: white;
+	overflow: auto;
+}
+.stickers span{
+	font-size: 20px;
+	cursor: pointer;
+}
+.records{
+    position: relative;
+    top:30px;
+
+}
+.whatNews{
+    border:1px solid #d7d7d7;
+    padding: 5px 8px;
+    position:relative;
+}
+
+.whatNews img{
+    width: 33px;
+    height: 33px;
+    vertical-align: top;
+}
+.whatNews textarea{
+    color:#a4a3a3;
+    font-family:freesans;
+    font-size: 12px;
+    padding: 8px 10px;
+    width: 327px;
+    height: 66px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+
+input[name="subPost"]{
+    float: right;
+    border:none;
+    outline: none;
+    background-color: #eb971a;
+    color:#fff;
+    font-family:freesans;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 7px 17px;
+}
+.clear{
+    clear: both;
+}
+.oldPosts{
+    border:1px solid #d7d7d7;
+    padding: 10px 8px;
+    margin-top: 12px;
+    position: relative;
+}
+.edit_items{
+   display:none;
+}
+.edit_items div{
+    width:100%;
+    height:2px;
+    background-color: #ebebeb;
+    margin-top: 7px;
+}
+.edit_items button, .edit_items_img button{
+    border:none;
+    background-color: white;
+    outline:none;
+    cursor: pointer;
+    color:black;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding-top: 4px;
+	
+}
+.show_edits{
+	cursor: pointer;
+    display: block;
+    position: absolute;
+    z-index:2;
+    top:33px;
+    right:0;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(235,235,235,0.75);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(235,235,235,0.75);
+    box-shadow: 0px 0px 5px 5px rgba(235,235,235,0.75);
+    padding: 4px 10px 4px;
+    border-radius: 5px;
+    width:233px;
+}
+.show_edits i, .edit_items_img button i{
+	color:#8d8d8d;
+}
+.oldPosts img, .oldPosts a{
+    float: left;
+}
+.oldPosts img{
+    width: 42px;
+    height: 42px;
+    vertical-align: top;
+}
+.editing{
+    float: right;
+}
+.postTime{
+    clear: both;
+    position: relative;
+    top:-17px;
+    left:54px;
+    font-family:freesans;
+    font-size: 12px;
+    color:#b2b2b2;
+}
+.postOwner{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #26b4f0;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 9px;
+    padding-top: 2px;
+}
+.oldText{
+    font-family:freesans;
+    font-size: 12px;
+    text-align: justify;
+    color:#000;
+    font-weight: 600;
+    width: 384px;
+    position: relative;
+    top:-13px;
+}
+.attention{
+    border:1px solid #d7d7d7;
+    padding: 2px 4px;
+}
+.love, .loveCount, .comments, .share,  .commCount, .shareCount{
+    float: left;
+    border:none;
+    outline:none;
+    background-color: white;
+    padding-right: 11px;
+}
+.comments i, .share i, .views i{
+    color: #7f7f7f;
+    font-size: 12px;
+}
+.love i{
+    color: red;
+}
+.views{
+    float: right;
+    border:none;
+    outline:none;
+    background-color: white;
+    padding-right: 11px;
+}
+.loveCount, .commCount, .shareCount{
+    font-size: 12px;
+    color: #7f7f7f;
+    padding-top: 2px;
+}
+.viewCount{
+    font-size: 12px;
+    float: right;
+    color: #7f7f7f;
+    padding-right: 11px;
+    padding-top: 2px;
+}
+.commField{
+    display:none;
+    border:1px solid #e5e5e5;
+    padding: 8px 13px;
+}
+
+.commField>div{
+    padding-top: 8px;
+}
+.showComs{
+    display:block;
+}
+.commented{
+    max-width:383px;
+    font-size: 10px;
+    font-family: freesans;
+    font-weight: bold;
+    padding-left: 36px;
+    margin-top: -10px;
+    margin-bottom: 4px;
+    overflow: hidden;
+}
+.commField a{
+    text-transform: capitalize;
+    color:#00aeef;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: freesans;
+    vertical-align: top;
+}
+.commField a:hover{
+    color:#00aeef;
+    text-decoration: none;
+}
+.showComm{
+    background-color: #f3efef;
+    border:none;
+    outline: none;
+    padding: 6px 98px;
+    font-size: 10px;
+    font-family: freesans;
+}
+
+.setImgs{
+    position: relative;
+    top:30px;
+    display: none;
+}
+.set_img{
+	position: relative;
+    width: 130px;
+    height: 130px;
+    border:1px dashed #a4a3a3;
+    height: 130px;
+	float:left;
+	    margin: 5px 3px 5px
+}
+.add_img{
+	width:130px;
+	height:130px;
+	opacity: 0;
+	position: absolute;
+	z-index: 2;
+}
+.imgs{
+    float:left;
+    position: relative;
+	margin: 5px 3px 5px;
+}
+
+.imgs img{
+    width: 130px;
+    height: 130px;
+}
+.img_plus, .load_pic{
+	position: absolute;
+	z-index: 0;
+	width:30px;
+	top:20px;
+	left:47px;
+	font-size:65px;
+	color:#a3a3a3;
+}
+.load_pic{
+	top:90px;
+	left:28px;
+	font-size:12px;
+	width:80px;
+}
+.close{
+    position: absolute;
+    top:2px;
+    right: 2px;
+    border:none;
+    outline: none;
+    display: none;
+}
+.imgs:hover .close{
+    display: block;
+}
+.myInform{
+    padding:43px 0px;
+    max-width: 327px;
+    display:none;
+}
+.phoneNumber span{
+    margin-left: 14px;
+}
+.psInfo, .mainInfo{
+    font-family:freesans;
+    font-size: 10px;
+    color:#666;
+    text-transform: uppercase;
+    font-weight: 700;
+    clear: both;
+}
+.bornDate a i, .phoneNumber a i{
+    color:#000;
+    font-size: 14px;
+    margin-left: 4px;
+}
+.psDates span{
+    font-family:freesans;
+    font-size: 14px;
+    font-weight: 700;
+    color:#000;
+    text-transform: capitalize;
+    margin-bottom: 14px;
+}
+.userContacts{
+    clear: both;
+    float:left;
+}
+.userMail a{
+    text-decoration: underline;
+    color:#93d3f6;
+}
+.first{
+    margin-top: 22px;
+}
+.r{
+    float:right;
+}
+.our{
+    padding-top: 45px;
+}
+.myPicture{
+	background-image: url(../images/adult.png);
+}
+.follow{
+    text-align: center;
+    background-color: #efa336;
+    color:white;
+    font-size:14px;
+    text-transform: capitalize;
+    padding: 7px 0;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor:pointer;
+}
+.short{
+    border:1px solid #969696;
+    position:relative;
+}
+.shortNote{
+    color:#969696;
+}
+.div_line{
+    width:100%;
+    height: 2px;
+    background-color: #969696;
+    margin-top: 26px;
+    margin-bottom: 17px;
+}
+.followers_show, .follwers_count{
+    cursor:pointer;
+    float:left;
+    color:#969696;
+}
+.following_show, .follwing_count{
+    float:right;
+    cursor:pointer;
+    color:#969696;
+}
+.follwing_count, .follwers_count{
+    font-size: 10px;
+    color:#969696;
+}
+.followers_show{
+    color:black; 
+}
+.following_short{
+    display:none;
+}
+.followers_short, .following_short{
+    width:243px;
+    height:180px;
+    overflow: hidden;
+	margin-bottom: 10px;
+}
+.followers_short>div, .following_short>div{
+    width:62px;
+    height:62px;
+    float:left;
+    margin:10px 6px;
+}
+.followers_short>div>div, .following_short>div>div{
+    width:64px;
+    height:64px;
+    border:1px solid #969696;
+}
+.follower_name a{
+	text-decoration: none !important;
+} 
+.clear{
+    clear:both;
+}
+.followers_short>div p, .following_short>div p{
+    text-align: center;
+    color:#2c7493;
+    font-size: 10px;
+}
+.show_followers{
+    display:block;
+}
+.showAll{
+    position: absolute;
+    bottom: 0;
+    left:0 !important;
+    width:100%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border:none;
+	color:#8e8c8c;
+	font-size: 12px;
+    background-color: #f3efef !important;
+    outline:none;
+}
+.showAll:hover{
+	text-decoration: underline;
+}
+.bookmark{
+    float:right;
+    position: relative;
+	z-index: 1;
+	top:-22px;
+	right:7px;
+	width: 40%;
+}
+.bookmark:hover .addToBookmarks{
+    display: block;
+}
+.addToBookmarks{
+    position: absolute;
+    top:-23px;
+    right:6px;
+    padding: 5px;
+    border:1px solid #CCC;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(228,228,228,1);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(228,228,228,1);
+    box-shadow: 0px 0px 4px 0px rgba(228,228,228,1);
+    border-radius:4px;
+    font-size:9px;
+    color:#b6b6b6;
+    display:none;
+}
+.save{
+    background-color: white;
+    border: none;
+    outline: none;
+    float:right;
+}
+.postField>textarea{
+	width:310px !important;
+	height:30px;
+	font-size:10px;
+}
+.postField>img{
+    width:20px;
+    height:23px;
+}
+.actions{
+	padding: 3px 16px 0px 9px !important;
+}
+.actions .comm_addfile{
+	float: left;
+    top: 2px;
+	right: 0;
+}
+․
+

@@ -1,0 +1,260 @@
+@font-face{
+    font-family:freesans;
+    src:url("../fonts/freesans/freesans.ttf");
+}
+@font-face{
+    font-family:freesansbold;
+    src:url("../fonts/freesans/freesansbold.ttf")
+}
+@font-face{
+    font-family: JosefinSans-SemiBold;
+    src:url("../fonts/Josefin_Sans/JosefinSans-SemiBold.ttf")
+}
+@font-face{
+    font-family: JosefinSans-Light;
+    src:url("../fonts/Josefin_Sans/JosefinSans-Light.ttf")
+}
+aside, section{
+    float:left;
+}
+.l_aside{
+    padding-top: 28px;
+    width:290px;
+}
+.list_sett{
+    width:248px;
+    padding: 16px 10px 0px;
+    border-left:1px solid #cccccc;
+    border-right:1px solid #cccccc;
+    border-top:1px solid #f1f1f1;
+    border-bottom:1px solid #f1f1f1;
+}
+.list_sett button, .list_sett span{
+    background-color: white;
+    border:none;
+    outline:none;
+    color: black;
+    font-family: freesans;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.l_aside .advertisementR{
+    margin-left: 0 !important;
+    width:248px !important;
+    margin-top: 20px;
+    height:417px;
+}
+section{
+    padding: 48px 21px 48px 2px;
+    width:437px;
+}
+.l_part{
+    float:left;
+    font-family: freesans;
+    font-size: 14px;
+    font-weight: 500;
+    color:black;
+}
+.sett_content input, .sett_content button, .sett_content p, .sett_content select, .sett_content .gender, .knowing_langs{
+    float:right;
+    border:none;
+    outline:none;
+    font-family: freesans;
+    font-size: 14px;
+    font-weight: 500;
+    color:black;
+	overflow: hidden;
+}
+.sett_content input, .sett_content p, .sett_content select, .sett_content .gender{
+    width:152px;
+    margin-right: 18px;
+}
+.sett_content input{
+    padding-left: 5px;
+}
+ .change, .change_pass{
+    color:#ed9920 !important;
+    background-color: white;
+    width:52px;
+}
+.sett_content select {
+    width: 96px;
+    margin-right: 70px;
+	display:none;
+}
+.knowing_langs{
+	display: none;
+}
+.choosed{
+	padding: 4px 6px;
+	background: LightGray;
+	border-radius: 3px;
+}
+.choosed i{
+	position: relative;
+	padding: 0 4px;
+	top:-3px;
+	color:black;
+	font-size: 10px;
+}
+form>div{
+    margin-bottom: 32px;
+}
+.line_break{
+    height: 1px;
+    background-color: #cccccc;
+    margin-bottom: 23px;
+    margin-top: -11px;
+}
+.no_legal_men{
+    color:#a3a3a3;
+}
+.deactivate{
+    background-color: #ed9920;
+    width:40px !important;
+    height:20px;
+    border-radius: 18%;
+    margin-right: 13px;
+    padding-right: 0 !important;
+}
+.deactivate i{
+    color:white;
+    font-size: 20px;
+    right:-10px;
+	position: relative;
+}
+.show_big_img>div{
+	padding: 17px 13px;
+	width:55% !important;
+	height:368px !important;
+}
+.show_big_img>div>span{
+	float:left;
+	 font-family: freesans;
+    font-size: 16px;
+    font-weight: 500;
+    color:black;
+	padding-left: 12px;
+}
+.show_big_img .line_break{
+	margin-top: 15px;
+	margin-bottom:30px;
+}
+.show_big_img>div>p{
+	padding-left: 12px;
+	font-family: freesans;
+    font-size: 12px;
+	 color:#a1a1a1;
+	margin-bottom: 40px;
+}
+.typing_pass{
+	width:480px;
+	margin: auto;
+	padding-bottom: 15px;
+}
+.show_big_img>div label{
+	font-family: freesans;
+    font-size: 13px;
+	 color:black;
+	width:165px;
+	float:left;
+	text-align: right;
+	margin-right: 5px;
+	
+}
+.show_big_img>div input{
+	outline: none;
+	border:1px solid #a1a1a1 !important;
+	padding: 5px;
+	margin-bottom: 13px;
+	width:215px;
+	float:left;
+	border-radius: 5px;
+	color:black;
+}
+.pass_actions{
+	padding: 10px 25px;
+	margin-top: -25px;
+}
+.pass_actions button{
+	border: none;
+	outline:none;
+	float:right;
+	margin-left: 10px;
+	padding: 5px 5px;
+	border-radius: 5px;
+	font-family: freesans;
+    font-size: 14px;
+	
+}
+.save_pass{
+	background-color: #ed9920;
+	color: #fff;
+}
+.cancel{
+	background-color: #f5f3f3;
+	 color:black;
+}
+.vacancy_info {
+    float: right;
+    width: 83%;
+}
+.remove_from_list{
+    float:right;
+    background-color: white;
+    border:none;
+    outline: none;
+    font-family: freesans;
+    font-size: 11px;
+    font-weight: 500;
+    color: #666666;
+    padding-top:10px;
+}
+.blocked{
+    margin-bottom: 0;
+}
+.blocked_section{
+    padding: 0px 21px 48px 2px;
+}
+.knowing_langs{
+	width:300px;
+}
+input[name='new_langs']{
+	position: relative;
+    left: -40px;
+	width:80px;
+	padding-top: 6px;
+}
+.choosed_field span{
+	margin-left: 2px;
+	margin-bottom: 3px;
+	white-space: nowrap;
+}
+.choosed_field{
+	display: inline-block;
+	width: 145px;
+	padding: 10px;
+	overflow: auto;
+}
+p[class="langs"]{
+	overflow-x: auto;
+}
+p[class="langs"] span{
+	background-color: white;
+	text-transform: capitalize;
+}
+p[class="langs"] span b{
+	font-weight: 100;
+}
+p[class="langs"] span i{
+	display: none;
+}
+.save_changes{
+    background-color: #ed9920;
+	color: #fff;
+	border:none;
+	outline: none;
+	border-radius: 3px;
+	padding: 3px 6px;
+}
